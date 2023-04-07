@@ -62,9 +62,9 @@ android {
     signingConfigs {
         release {
             storeFile file("sign/key.jks")
-            storePassword "5871865"
-            keyAlias "oderta"
-            keyPassword "5871865"
+            storePassword "5871865asd"
+            keyAlias "5871865asd"
+            keyPassword "5871865asd"
         }
     }
 
