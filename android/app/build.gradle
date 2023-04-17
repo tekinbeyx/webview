@@ -25,9 +25,9 @@ if (flutterRoot == null) {
     throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
 }
 
-def flutterVersionCode = '2'
+def flutterVersionCode = '3'
 
-def flutterVersionName = '1.0.1'
+def flutterVersionName = '1.0.2'
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
@@ -62,9 +62,9 @@ android {
     signingConfigs {
         release {
             storeFile file("sign/key.jks")
-            storePassword "5871865"
-            keyAlias "oderta"
-            keyPassword "5871865"
+            storePassword "5871865asd"
+            keyAlias "5871865asd"
+            keyPassword "5871865asd"
         }
     }
 
